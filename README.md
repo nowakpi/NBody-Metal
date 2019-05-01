@@ -10,19 +10,25 @@ Version 2.0  by Piotr Nowak includes:
 - configurable initial velocity of bodies
 - configurable softening
 
+
 ### Examples
-
+#### 1
 ![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/screenshot2.0a.png)
-
-![](https://raw.githubusercontent.com/jrprice/NBody-Metal/screenshots/screenshot.png)
-
-![](https://raw.githubusercontent.com/jrprice/NBody-Metal/screenshots/screenshot.png)
-
-![](https://raw.githubusercontent.com/jrprice/NBody-Metal/screenshots/screenshot.png)
+#### 2
+![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/screenshot2.0b.png)
+#### 3
+![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/screenshot2.0c.png)
+#### 4
+![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/screenshot2.0d.png)
 
 ### Usage
 
-TODO
+RL = Random
+R0 = value of 0
+
+Choose CRR for both Initial Distribution and Initial Velocity to experiment with rotating planetary disks.
+Combine RSS, RSC and RC to form a sphere or spin the particles.
+Use CR to cut the space filled with bodies in any way.
 
 ### Developer Usage
 
