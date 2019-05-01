@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "NBodyViewController.regenerateAction(_:):NBodyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nbodies">
+            </PersistentString>
+            <PersistentString
+               value = "numBdTxt">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NBodyViewController.drawInMTKView(view:):NBodyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "view.currentDrawable">
+            </PersistentString>
+            <PersistentString
+               value = "renderPipelineState">
+            </PersistentString>
+            <PersistentString
+               value = "d_positionsOut[3*4 + 2]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NBodyViewController.keyDown(with:):NBodyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "with.keyCode">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "NBodyViewController.initBodies(distX:distY:distZ:veloX:veloY:veloZ:):NBodyViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "nbodies">
+            </PersistentString>
+            <PersistentString
+               value = "Float(aV * cos(phi))">
+            </PersistentString>
+            <PersistentString
+               value = "h_velocities[i*4 + 0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:NBody-Metal.xcodeproj">
+      location = "self:/Users/piotrnowak/Documents/Projects/NBody-Metal/NBody-Metal.xcodeproj">
    </FileRef>
 </Workspace>

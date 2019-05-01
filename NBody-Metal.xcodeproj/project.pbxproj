@@ -3,16 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A93158D1BC7CFE100703051 /* NBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93158C1BC7CFE100703051 /* NBodyViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		1A93158F1BC7DCC100703051 /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1A93158E1BC7DCC100703051 /* shaders.metal */; settings = {ASSET_TAGS = (); }; };
-		1A9315971BC8381200703051 /* Matrix4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9315961BC8381200703051 /* Matrix4.m */; settings = {ASSET_TAGS = (); }; };
+		1A93158D1BC7CFE100703051 /* NBodyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A93158C1BC7CFE100703051 /* NBodyViewController.swift */; };
+		1A93158F1BC7DCC100703051 /* shaders.metal in Sources */ = {isa = PBXBuildFile; fileRef = 1A93158E1BC7DCC100703051 /* shaders.metal */; };
+		1A9315971BC8381200703051 /* Matrix4.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9315961BC8381200703051 /* Matrix4.m */; };
 		1AE99B2B1BC6BB7800793769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AE99B2A1BC6BB7800793769 /* AppDelegate.swift */; };
 		1AE99B2D1BC6BB7800793769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AE99B2C1BC6BB7800793769 /* Assets.xcassets */; };
 		1AE99B301BC6BB7800793769 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE99B2E1BC6BB7800793769 /* MainMenu.xib */; };
+		C62D1DF02204D52C009EFCA9 /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = C62D1DEF2204D52C009EFCA9 /* galaxy.png */; };
+		C6E7D6922279E47C004A81B4 /* NBodySimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7D6912279E47C004A81B4 /* NBodySimulator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		1AE99B2C1BC6BB7800793769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AE99B2F1BC6BB7800793769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1AE99B311BC6BB7800793769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C62D1DEF2204D52C009EFCA9 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
+		C6E7D6912279E47C004A81B4 /* NBodySimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBodySimulator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +77,10 @@
 				1AE99B2E1BC6BB7800793769 /* MainMenu.xib */,
 				1AE99B311BC6BB7800793769 /* Info.plist */,
 				1A93158C1BC7CFE100703051 /* NBodyViewController.swift */,
+				C6E7D6912279E47C004A81B4 /* NBodySimulator.swift */,
 				1A93158E1BC7DCC100703051 /* shaders.metal */,
 				1A9315901BC8379000703051 /* NBody-Metal-Bridging-Header.h */,
+				C62D1DEF2204D52C009EFCA9 /* galaxy.png */,
 			);
 			path = "NBody-Metal";
 			sourceTree = "<group>";
@@ -106,17 +112,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0700;
-				LastUpgradeCheck = 0700;
-				ORGANIZATIONNAME = "James Price";
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					1AE99B261BC6BB7800793769 = {
 						CreatedOnToolsVersion = 7.0.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
 			buildConfigurationList = 1AE99B221BC6BB7800793769 /* Build configuration list for PBXProject "NBody-Metal" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -138,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1AE99B2D1BC6BB7800793769 /* Assets.xcassets in Resources */,
+				C62D1DF02204D52C009EFCA9 /* galaxy.png in Resources */,
 				1AE99B301BC6BB7800793769 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -152,6 +160,7 @@
 				1AE99B2B1BC6BB7800793769 /* AppDelegate.swift in Sources */,
 				1A9315971BC8381200703051 /* Matrix4.m in Sources */,
 				1A93158D1BC7CFE100703051 /* NBodyViewController.swift in Sources */,
+				C6E7D6922279E47C004A81B4 /* NBodySimulator.swift in Sources */,
 				1A93158F1BC7DCC100703051 /* shaders.metal in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,13 +187,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -206,11 +225,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -222,13 +244,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -244,9 +276,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -257,12 +293,16 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "NBody-Metal/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uob.NBody-Metal";
+				PRODUCT_BUNDLE_IDENTIFIER = net.learnmorethanever.zygzak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NBody-Metal/NBody-Metal-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -273,11 +313,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "NBody-Metal/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
 				MTL_FAST_MATH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.uob.NBody-Metal";
+				PRODUCT_BUNDLE_IDENTIFIER = net.learnmorethanever.zygzak;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "NBody-Metal/NBody-Metal-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
