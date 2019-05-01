@@ -15,6 +15,7 @@
 		1AE99B301BC6BB7800793769 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AE99B2E1BC6BB7800793769 /* MainMenu.xib */; };
 		C62D1DF02204D52C009EFCA9 /* galaxy.png in Resources */ = {isa = PBXBuildFile; fileRef = C62D1DEF2204D52C009EFCA9 /* galaxy.png */; };
 		C6E7D6922279E47C004A81B4 /* NBodySimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E7D6912279E47C004A81B4 /* NBodySimulator.swift */; };
+		C6E7D694227A01B7004A81B4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C6E7D693227A01B7004A81B4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		1AE99B311BC6BB7800793769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C62D1DEF2204D52C009EFCA9 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
 		C6E7D6912279E47C004A81B4 /* NBodySimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBodySimulator.swift; sourceTree = "<group>"; };
+		C6E7D693227A01B7004A81B4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 		1AE99B1E1BC6BB7800793769 = {
 			isa = PBXGroup;
 			children = (
+				C6E7D693227A01B7004A81B4 /* README.md */,
 				1A9315981BC8381900703051 /* Matrix4 */,
 				1AE99B291BC6BB7800793769 /* NBody-Metal */,
 				1AE99B281BC6BB7800793769 /* Products */,
@@ -146,6 +149,7 @@
 			files = (
 				1AE99B2D1BC6BB7800793769 /* Assets.xcassets in Resources */,
 				C62D1DF02204D52C009EFCA9 /* galaxy.png in Resources */,
+				C6E7D694227A01B7004A81B4 /* README.md in Resources */,
 				1AE99B301BC6BB7800793769 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
