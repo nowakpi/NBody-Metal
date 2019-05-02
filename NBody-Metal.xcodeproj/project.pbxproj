@@ -32,6 +32,7 @@
 		C62D1DEF2204D52C009EFCA9 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
 		C6E7D6912279E47C004A81B4 /* NBodySimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBodySimulator.swift; sourceTree = "<group>"; };
 		C6E7D693227A01B7004A81B4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C6E7D696227B11E4004A81B4 /* galaxy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galaxy.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +93,7 @@
 		C6E7D695227B111B004A81B4 /* Pre-compiled */ = {
 			isa = PBXGroup;
 			children = (
+				C6E7D696227B11E4004A81B4 /* galaxy.png */,
 			);
 			path = "Pre-compiled";
 			sourceTree = "<group>";
