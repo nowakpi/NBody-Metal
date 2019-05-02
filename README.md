@@ -16,10 +16,14 @@ Version 2.0  by Piotr Nowak includes:
 ![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/snapshot2.0a.png)
 #### 2
 ![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/snapshot2.0b.png)
-#### 3
-![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/snapshot2.0c.png)
 #### 4
+![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/snapshot2.0e.png)
+#### 5
+![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/snapshot2.0c.png)
+#### 6
 ![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/snapshot2.0d.png)
+#### 7
+![](https://raw.githubusercontent.com/nowakpi/NBody-Metal/screenshots/snapshot2.0f.png)
 
 ### Usage
 
