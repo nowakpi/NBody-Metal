@@ -58,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				C6E7D693227A01B7004A81B4 /* README.md */,
+				C6E7D695227B111B004A81B4 /* Pre-compiled */,
 				1A9315981BC8381900703051 /* Matrix4 */,
 				1AE99B291BC6BB7800793769 /* NBody-Metal */,
 				1AE99B281BC6BB7800793769 /* Products */,
@@ -86,6 +87,13 @@
 				C62D1DEF2204D52C009EFCA9 /* galaxy.png */,
 			);
 			path = "NBody-Metal";
+			sourceTree = "<group>";
+		};
+		C6E7D695227B111B004A81B4 /* Pre-compiled */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Pre-compiled";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
